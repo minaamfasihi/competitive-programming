@@ -1,2 +1,2 @@
-# uva-online-judge
-Solutions of UVA Problems
+# programming practice
+Practice problems for fun
