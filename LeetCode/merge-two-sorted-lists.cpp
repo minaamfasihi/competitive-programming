@@ -27,7 +27,6 @@ ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
                 }
             }
         }
-
         while (l1 != nullptr) {
             if (res == nullptr) {
                 res = new ListNode(-1);
@@ -41,7 +40,6 @@ ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
             }
             l1 = l1->next;
         }
-
         while (l2 != nullptr) {
             if (res == nullptr) {
                 res = new ListNode(-1);
