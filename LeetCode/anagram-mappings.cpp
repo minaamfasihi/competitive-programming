@@ -10,4 +10,4 @@ vector<int> anagramMappings(vector<int>& A, vector<int>& B) {
             result.push_back(val);
         }
         return result;
-    }
+}
