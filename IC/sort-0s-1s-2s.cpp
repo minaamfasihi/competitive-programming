@@ -9,15 +9,11 @@ vector<int> sort0s1s2s(vector<int> arr) {
 			mid++;
 		}
 		else if (arr[mid + 1] == 2) {
-			int temp = arr[mid + 1];
-			arr[mid + 1] = arr[high - 1];
-			arr[high - 1] = temp;
+			swap(arr[mid + 1], arr[high - 1]);
 			high--;
 		}
 		else if (arr[mid + 1] == 0) {
-			int temp = arr[mid + 1];
-			arr[mid + 1] = arr[low + 1];
-			arr[low + 1] = temp;
+			swap(arr[low + 1], arr[mid + 1]);
 			low++;
 			mid++;
 		}
