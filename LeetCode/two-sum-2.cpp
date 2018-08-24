@@ -10,6 +10,5 @@ vector<int> twoSum(vector<int>& numbers, int target) {
 			break;
 		}
 	}
-	for (auto& i : result) cout << i << endl;
 	return result;
 }
