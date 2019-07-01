@@ -20,11 +20,10 @@ public class queue_at_school_266_b {
     }
 
     public static void main(String[] args) {
-        String str;
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int timeElapsed = sc.nextInt();
-        str = sc.next();
+        String str = sc.next();
         System.out.println(queueAtSchool(str, timeElapsed));
     }
 }
