@@ -4,7 +4,7 @@ public static int minInCyclicallySortedArray(int[] arr) {
     while (low <= high) {
         int mid = low + ((high - low) >> 1);
         if (arr[mid] <= right && (mid == 0 || (mid > 0 && arr[mid - 1] > arr[mid])))
-            return nums[mid];
+            return arr[mid];
         else if (arr[mid] > right) {
             low = mid + 1;
         }
