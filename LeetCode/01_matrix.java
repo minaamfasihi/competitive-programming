@@ -8,7 +8,6 @@ class Solution {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (matrix[i][j] == 0) {
-                    matrix[i][j] = 0;
                     q.add(i + ", " + j);
                 } else matrix[i][j] = Integer.MAX_VALUE;
             }
